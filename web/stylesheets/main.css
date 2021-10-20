@@ -5,8 +5,12 @@ h1{
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-h2, p {
+h1, h2, p {
     color: #FFF;
+}
+
+li {
+    color: #EE2D42;
 }
 
 html, body {
