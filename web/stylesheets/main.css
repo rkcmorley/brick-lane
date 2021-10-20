@@ -4,3 +4,11 @@ h1{
     font-weight: bold;
     font-family: 'Hind Siliguri', sans-serif;
 }
+
+h2, p {
+    color: #FFF;
+}
+
+html, body {
+    background: #006B4F;
+}
