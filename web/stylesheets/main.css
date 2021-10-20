@@ -16,6 +16,10 @@ ul li {
 li {
     color: #EE2D42;
 }
+.center-nav {
+    text-align: center;
+}
+
 
 html, body {
     background: #006B4F;
