@@ -9,6 +9,10 @@ h1, h2, p {
     color: #FFF;
 }
 
+ul li {
+    display: inline;
+}
+
 li {
     color: #EE2D42;
 }
@@ -20,4 +24,8 @@ html, body {
 .navbar-inverse, .navbar-default {
     background-color: unset;
     border-color: unset;
+}
+
+.navbar-static-top {
+    border-width: 0;
 }
