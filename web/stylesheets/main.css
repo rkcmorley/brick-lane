@@ -1,4 +1,4 @@
-h1{
+h1 {
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -25,14 +25,19 @@ html, body {
     overflow-x: hidden;
 }
 
-.hand-logo{
+.hand-logo {
     width: 15%;
 }
 
-.brick-lane-logo{
+.brick-lane-logo {
     width: 30%;
 }
 
 .map {
     width: 35%;
+}
+
+.bi-arrow-up-circle-fill {
+    font-size: 3em;
+    color: #FFF;
 }
