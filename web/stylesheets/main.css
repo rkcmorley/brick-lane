@@ -16,3 +16,8 @@ li {
 html, body {
     background: #006B4F;
 }
+
+.navbar-inverse, .navbar-default {
+    background-color: unset;
+    border-color: unset;
+}
