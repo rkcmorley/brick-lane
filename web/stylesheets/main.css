@@ -60,8 +60,52 @@
         color: #FFF;
     }
 
+
+
+}
+
+/** X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    h1 {
+        text-align: center;
+        font-weight: 700;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    .nav-link {
+        font-size: 1.5em;
+    }
+
+    .hand-logo {
+        width: 15%;
+    }
+
+    .brick-lane-logo {
+        width: 30%;
+    }
+
+    #map, .about {
+        width: 35%;
+    }
+    .shahid, .bank, .mosque, .brewery, .station {
+        width: 100%;
+    }
+
+    .bi-arrow-up-circle-fill {
+        font-size: 3em;
+    }
+
     /** Audio player appearance */
-    template.button {
+    button {
         padding: 0;
         border: 0;
         background: transparent;
@@ -71,7 +115,7 @@
         height: 40px;
         float: left;
     }
-    template.#audio-player-container {
+    #audio-player-container {
         position: relative;
         margin: 100px 2.5% auto 2.5%;
         width: 95%;
@@ -241,47 +285,6 @@
     }
 
 
-}
-
-/** X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-    h1 {
-        text-align: center;
-        font-weight: 700;
-        font-family: 'Hind Siliguri', sans-serif;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
-    p {
-        font-size: 1.3em;
-    }
-
-    .nav-link {
-        font-size: 1.5em;
-    }
-
-    .hand-logo {
-        width: 15%;
-    }
-
-    .brick-lane-logo {
-        width: 30%;
-    }
-
-    #map, .about {
-        width: 35%;
-    }
-    .shahid, .bank, .mosque, .brewery, .station {
-        width: 100%;
-    }
-
-    .bi-arrow-up-circle-fill {
-        font-size: 3em;
-    }
 }
 
 
