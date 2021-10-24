@@ -32,7 +32,7 @@
     }
 
     path {
-        fill: rgba(0,0,0,0);
+        fill: rgba(0, 0, 0, 0);
     }
 
     h1 {
@@ -58,6 +58,10 @@
     .bi-arrow-up-circle-fill {
         font-size: 8em;
         color: #FFF;
+    }
+
+    audio-player {
+        width: 100%;
     }
 
 }
@@ -94,6 +98,7 @@
     #map, .about {
         width: 35%;
     }
+
     .shahid, .bank, .mosque, .brewery, .station {
         width: 100%;
     }
