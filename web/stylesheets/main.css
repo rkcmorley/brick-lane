@@ -35,10 +35,6 @@
         width: 90%;
     }
 
-    .podcasts-column{
-        padding-left: 20px;
-    }
-
     h1 {
         font-size: 5em;
     }
@@ -100,10 +96,6 @@
 
     .about {
         width: 35%;
-    }
-
-    .podcasts-column {
-        padding-left: 0;
     }
 
     .bi-arrow-up-circle-fill {
