@@ -82,6 +82,11 @@
         overflow-x: hidden;
     }
 
+    .small-link {
+        color: #FFF;
+        text-decoration: none;
+    }
+
 }
 
 /** Medium devices (tablets, 768px and up) */
