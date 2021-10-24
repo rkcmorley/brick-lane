@@ -20,12 +20,9 @@ const everything = function(element) {
     const audioPlayerContainer = shadow.getElementById('audio-player-container');
     const playIconContainer = shadow.getElementById('play-icon');
     const seekSlider = shadow.getElementById('seek-slider');
-    const volumeSlider = shadow.getElementById('volume-slider');
-    const muteIconContainer = shadow.getElementById('mute-icon');
     const audio = shadow.querySelector('audio');
     const durationContainer = shadow.getElementById('duration');
     const currentTimeContainer = shadow.getElementById('current-time');
-    const outputContainer = shadow.getElementById('volume-output');
     let playState = 'play';
     let muteState = 'unmute';
     let raf = null;
@@ -39,15 +36,6 @@ const everything = function(element) {
         loop: false,
         autoplay: false,
         name: "Play Animation",
-    });
-
-    const muteAnimation = lottieWeb.loadAnimation({
-        container: muteIconContainer,
-        path: 'https://maxst.icons8.com/vue-static/landings/animated-icons/icons/mute/mute.json',
-        renderer: 'svg',
-        loop: false,
-        autoplay: false,
-        name: "Mute Animation",
     });
 
     playAnimation.goToAndStop(14, true);
@@ -110,18 +98,6 @@ const everything = function(element) {
         }
     });
 
-    muteIconContainer.addEventListener('click', () => {
-        if(muteState === 'unmute') {
-            muteAnimation.playSegments([0, 15], true);
-            audio.muted = true;
-            muteState = 'mute';
-        } else {
-            muteAnimation.playSegments([15, 25], true);
-            audio.muted = false;
-            muteState = 'unmute';
-        }
-    });
-
     audio.addEventListener('progress', displayBufferedAmount);
 
     seekSlider.addEventListener('input', (e) => {
@@ -137,13 +113,6 @@ const everything = function(element) {
         if(!audio.paused) {
             requestAnimationFrame(whilePlaying);
         }
-    });
-
-    volumeSlider.addEventListener('input', (e) => {
-        const value = e.target.value;
-        showRangeProgress(e.target);
-        outputContainer.textContent = value;
-        audio.volume = value / 100;
     });
 }
 
