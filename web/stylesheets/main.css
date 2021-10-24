@@ -31,6 +31,12 @@
         width: 90%;
     }
 
+    #map svg {
+        display: inline-block;
+        position: absolute;
+        top: 0; left: 0;
+    }
+
     h1 {
         font-size: 5em;
     }
