@@ -27,12 +27,7 @@
         width: 60%;
     }
 
-    .map {
-        width: 90%;
-        border-radius: 30px;
-    }
-
-    .about {
+    .map, .about, .shahid {
         width: 90%;
         border-radius: 30px;
     }
