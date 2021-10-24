@@ -1,5 +1,5 @@
 /** Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (min-width: 576px) {
     .hand-logo {
         width: 45%;
     }
