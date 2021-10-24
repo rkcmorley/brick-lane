@@ -3,16 +3,16 @@
     <use id="Background" xlink:href="#_Image1" x="0" y="0" width="564px" height="800px"
          transform="matrix(4.16667,0,0,4.16667,0,0)"/>
     <a xlink:href="#shahid">
-        <circle cx="1489.58" cy="3124.31" r="128.898" opacity="0"/>
+        <circle cx="1489.58" cy="3124.31" r="128.898" style="fill:#ebebeb;fill-opacity:0.8;"/>
     </a>
     <a xlink:href="#bank">
-        <circle cx="1190.64" cy="2394.54" r="128.898" opacity="0"/>
+        <circle cx="1190.64" cy="2394.54" r="128.898" style="fill:#ebebeb;fill-opacity:0.8;"/>
     </a>
     <a xlink:href="#mosque">
-        <circle cx="875.843" cy="1683.08" r="128.898" opacity="0"/>
+        <circle cx="875.843" cy="1683.08" r="128.898" style="fill:#ebebeb;fill-opacity:0.8;"/>
     </a>
     <a xlink:href="#brewery">
-        <circle cx="931.8" cy="363.657" r="128.898" opacity="0"/>
+        <circle cx="931.8" cy="363.657" r="128.898" style="fill:#ebebeb;fill-opacity:0.8;"/>
     </a>
     <defs>
         <image id="_Image1" width="564px" height="800px"
