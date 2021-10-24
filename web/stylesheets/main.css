@@ -27,7 +27,7 @@
         width: 60%;
     }
 
-    .map, .about, .shahid, .bank, .mosque, .brewery, .station {
+    #map, .about, .shahid, .bank, .mosque, .brewery, .station {
         width: 90%;
     }
 
@@ -86,7 +86,7 @@
         width: 30%;
     }
 
-    .map, .about {
+    #map, .about {
         width: 35%;
     }
     .shahid, .bank, .mosque, .brewery, .station {
