@@ -31,6 +31,10 @@
         width: 90%;
     }
 
+    .about {
+        width: 90%;
+    }
+
     .podcasts-column{
         padding-left: 20px;
     }
@@ -91,6 +95,10 @@
     }
 
     .map {
+        width: 35%;
+    }
+
+    .about {
         width: 35%;
     }
 
