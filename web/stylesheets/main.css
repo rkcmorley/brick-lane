@@ -41,3 +41,7 @@ html, body {
     font-size: 3em;
     color: #FFF;
 }
+
+.podcasts-column{
+    padding-left: 0;
+}

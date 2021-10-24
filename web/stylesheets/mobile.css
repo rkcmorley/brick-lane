@@ -3,4 +3,16 @@
     .hand-logo {
         width: 45%;
     }
+
+    .brick-lane-logo {
+        width: 60%;
+    }
+
+    .map {
+        width: 90%;
+    }
+
+    .podcasts-column{
+        padding-left: 20px;
+    }
 }
