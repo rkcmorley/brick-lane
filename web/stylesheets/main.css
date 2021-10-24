@@ -37,10 +37,17 @@
 
     h1 {
         font-size: 5em;
+        font-weight: bold;
     }
 
     h2 {
         font-size: 4em;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 3.2em;
+        font-weight: bold;
     }
 
     p {
@@ -81,6 +88,10 @@
 
     h2 {
         font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
     }
 
     p {
