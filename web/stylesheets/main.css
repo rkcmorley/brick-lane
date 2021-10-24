@@ -87,11 +87,11 @@
 /** Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     p {
-        font-size: 1.5em;
+        font-size: 2.3em;
     }
 
     h3 {
-        font-size: 2.5em;
+        font-size: 3em;
     }
 }
 
