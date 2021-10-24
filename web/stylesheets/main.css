@@ -1,3 +1,30 @@
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .hand-logo {
+        width: 45%;
+    }
+
+    .brick-lane-logo {
+        width: 60%;
+    }
+
+    .map {
+        width: 90%;
+    }
+
+    .podcasts-column{
+        padding-left: 20px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h2, p {
+        color: #FFF;
+    }
+}
+
 /** X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
@@ -47,32 +74,5 @@
 
     .podcasts-column {
         padding-left: 0;
-    }
-}
-
-/** Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    .hand-logo {
-        width: 45%;
-    }
-
-    .brick-lane-logo {
-        width: 60%;
-    }
-
-    .map {
-        width: 90%;
-    }
-
-    .podcasts-column{
-        padding-left: 20px;
-    }
-
-    h1 {
-        font-size: 4em;
-    }
-
-    h2, p {
-        color: #FFF;
     }
 }
