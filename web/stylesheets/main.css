@@ -56,7 +56,8 @@
     }
 
     .bi-arrow-up-circle-fill {
-        font-size: 4em;
+        font-size: 5em;
+        color: #FFF;
     }
 }
 
@@ -99,7 +100,6 @@
 
     .bi-arrow-up-circle-fill {
         font-size: 3em;
-        color: #FFF;
     }
 }
 
