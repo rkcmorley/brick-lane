@@ -43,6 +43,10 @@
         font-size: 4em;
     }
 
+    p {
+        font-size: 2em;
+    }
+
     .nav-link {
         font-size: 3em;
     }
@@ -70,8 +74,12 @@
         font-size: 2em;
     }
 
+    p {
+        font-size: 1.3em;
+    }
+
     .nav-link {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .hand-logo {
