@@ -89,6 +89,9 @@
     .map, .about {
         width: 35%;
     }
+    .shahid, .bank, .mosque, .brewery, .station {
+        width: 100%;
+    }
 
     .bi-arrow-up-circle-fill {
         font-size: 3em;
