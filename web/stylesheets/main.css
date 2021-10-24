@@ -56,8 +56,7 @@
     }
 
     .bi-arrow-up-circle-fill {
-        font-size: 3em;
-        color: #FFF;
+        font-size: 4em;
     }
 }
 
@@ -96,6 +95,11 @@
 
     .podcasts-column {
         padding-left: 0;
+    }
+
+    .bi-arrow-up-circle-fill {
+        font-size: 3em;
+        color: #FFF;
     }
 }
 
