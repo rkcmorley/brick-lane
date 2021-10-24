@@ -1,5 +1,24 @@
 /** Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    html, body {
+        background: #006B4F;
+        overflow-x: hidden;
+    }
+
+    .nav-link {
+        color: #EE2D42;
+        font-weight: 600;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    .nav-link:hover, .nav-link:focus {
+        color: #FFF;
+    }
+
+    h1, h2, p {
+        color: #FFF;
+    }
+
     .hand-logo {
         width: 45%;
     }
@@ -23,6 +42,11 @@
     h2, p {
         color: #FFF;
     }
+
+    .bi-arrow-up-circle-fill {
+        font-size: 3em;
+        color: #FFF;
+    }
 }
 
 /** X-Large devices (large desktops, 1200px and up) */
@@ -33,26 +57,6 @@
         font-size: 20px;
         font-weight: 700;
         font-family: 'Hind Siliguri', sans-serif;
-    }
-
-    h1, h2, p {
-        color: #FFF;
-    }
-
-    .nav-link {
-        color: #EE2D42;
-        font-weight: 600;
-        font-family: 'Hind Siliguri', sans-serif;
-    }
-
-    .nav-link:hover, .nav-link:focus {
-        color: #FFF;
-    }
-
-
-    html, body {
-        background: #006B4F;
-        overflow-x: hidden;
     }
 
     .hand-logo {
@@ -67,12 +71,8 @@
         width: 35%;
     }
 
-    .bi-arrow-up-circle-fill {
-        font-size: 3em;
-        color: #FFF;
-    }
-
     .podcasts-column {
         padding-left: 0;
     }
 }
+
