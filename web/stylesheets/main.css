@@ -31,6 +31,10 @@
         width: 90%;
     }
 
+    path {
+        fill: rgba(0,0,0,0);
+    }
+
     h1 {
         font-size: 5em;
     }
