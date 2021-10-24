@@ -105,6 +105,7 @@
     }
     #play-icon {
         margin: 20px 2.5% 10px 2.5%;
+        width:20%;
     }
     path {
         stroke: #007db5;
