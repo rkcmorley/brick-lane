@@ -29,10 +29,12 @@
 
     .map {
         width: 90%;
+        border-radius: 30px;
     }
 
     .about {
         width: 90%;
+
     }
 
     h1 {
