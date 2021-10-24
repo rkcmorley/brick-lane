@@ -36,15 +36,15 @@
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 5em;
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 4em;
     }
 
-    p{
-        font-size: 1em;
+    .nav-link {
+        font-size: 3em;
     }
 
     h2, p {
@@ -64,6 +64,14 @@
         text-align: center;
         font-weight: 700;
         font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .nav-link {
+        font-size: 2em;
     }
 
     .hand-logo {
