@@ -114,6 +114,7 @@
 
     p {
         font-size: 1.3em;
+        text-align: justify;
     }
 
     .nav-link {
